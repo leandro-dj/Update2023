@@ -18,6 +18,15 @@ namespace SalesWebMvc.Controllers
             return View();
         }
 
+        public IActionResult About()
+        {
+            ViewData["Message"] = "Salles Web Mvc app from c# Course";
+            ViewData["email"] = "lleandro.silva@outlook.com";
+
+
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
